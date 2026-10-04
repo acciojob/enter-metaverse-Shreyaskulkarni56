@@ -4,5 +4,5 @@ let button = document.getElementById("enterBtn");
 let changeText = document.getElementById("status");
 
 button.eventListener("click" function () {
-    changeText.textContent="Entered Metaverse"
+    changeText.textContent "<h1>Entered Metaverse</h1>";
 });
