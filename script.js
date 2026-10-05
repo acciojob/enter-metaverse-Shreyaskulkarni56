@@ -1,8 +1,6 @@
-//your JS code here. If required.
+const button = document.getElementById("enterBtn");
+const status = document.getElementById("status");
 
-let button = document.getElementById("enterBtn");
-let changeText = document.getElementById("status");
-
-button.addEventListener("click" function () {
-    changeText.textContent 'Entered Metaverse';
+button.addEventListener("click", function () {
+    status.innerHTML = "<h1>Entered Metaverse</h1>";
 });
