@@ -3,6 +3,6 @@
 let button = document.getElementById("enterBtn");
 let changeText = document.getElementById("status");
 
-button.addeventListener("click" function () {
-    changeText.textContent "<h1>Entered Metaverse</h1>";
+button.addEventListener("click" function () {
+    changeText.textContent 'Entered Metaverse';
 });
